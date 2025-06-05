@@ -1,3 +1,6 @@
+import * as dotenv from 'dotenv';
+dotenv.config(); // 🟢 Cargar variables antes de todo
+
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
