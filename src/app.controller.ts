@@ -1,9 +1,10 @@
+
 import { Controller, Get } from '@nestjs/common';
 
 @Controller()
 export class AppController {
   @Get()
   getHello(): string {
-    return 'Hola profe, soy Andrés Rojas, ¡proyecto entregado con éxito! ';
+    return 'Hola ingeniera carito,Soy Christian Rojas ¡proyecto entregado con éxito! 🚀';
   }
 }
